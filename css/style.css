@@ -1,0 +1,30 @@
+* {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
+}
+
+#header {
+	margin-bottom: 0;
+}
+
+.text-muted {
+	color: #BCBBBB;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.img-responsive {
+	padding: 5px;
+}
+
+.main-image {
+	text-align: center;
+}

@@ -1,0 +1,19 @@
+#header {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0;
+}
+
+.img-responsive {
+	float: left;
+}
+
+.featured-works {
+	display: block;
+}
+
+.featured-works div {
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
