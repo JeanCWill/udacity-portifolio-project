@@ -10,7 +10,7 @@
     <link rel="stylesheet" media="(min-width: 900px)" href="css/style-large.css">
   </head>
   <body>
-    <main class="container">
+    <div class="container">
       <header class="row" id="header">
         <div class="col-2">
           <picture>
@@ -23,12 +23,12 @@
           <h4 class="subtitle-super">Front-End Ninja</h4>
         </div>
       </header>
-      <div class="row">
+      <section class="row">
         <div class="col-12">
           <hr>
         </div>
-      </div>
-      <article class="row main-image">
+      </section>
+      <section class="row main-image">
         <div class="col-12">
           <picture>
             <source media="(min-width: 900px)" srcset="images/code-900_large.jpg"/>
@@ -36,14 +36,14 @@
             <img class="img-responsive" src="images/code-800_medium.jpg" alt="Ilustração de um trecho de código HTML">
           </picture>
         </div>
-      </article>
-      <article class="row">
+      </section>
+      <section class="row">
         <div class="col-12">
           <h2 class="text-muted">Trabalho em destaque</h2>
         </div>
-      </article>
-      <article class="row text-center text-uppercase featured-works">
-        <div class="col-4">
+      </section>
+      <main class="row text-center text-uppercase featured-works">
+        <article class="col-4">
           <picture>
             <source media="(min-width: 900px)" srcset="images/appify-900_large.jpg"/>
             <source media="(max-width: 600px)" srcset="images/appify-200_small_1x.jpg"/>
@@ -53,8 +53,8 @@
           <p>
             <a class="portfolio-link" href="#">Appify</a>
           </p>
-        </div>
-        <div class="col-4">
+        </article>
+        <article class="col-4">
           <picture>
             <source media="(min-width: 900px)" srcset="images/sunflower-900_large.jpg"/>
             <source media="(max-width: 600px)" srcset="images/sunflower-200_small_1x.jpg"/>
@@ -64,8 +64,8 @@
           <p>
             <a class="portfolio-link" href="#">Girassol</a>
           </p>
-        </div>
-        <div class="col-4">
+        </article>
+        <article class="col-4">
           <picture>
             <source media="(min-width: 900px)" srcset="images/bokeh-900_large.jpg"/>
             <source media="(max-width: 600px)" srcset="images/bokeh-200_small_1x.jpg"/>
@@ -75,8 +75,8 @@
           <p>
             <a class="portfolio-link" href="#">Bokeh</a>
           </p>
-        </div>
-      </article>
-    </main>
+        </article>
+      </main>
+    </div>
   </body>
 </html>
